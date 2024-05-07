@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 // Define expected languages
-const validLanguages = ["en", "zh-CN"]; // Extend this array with more languages as needed
+const validLanguages = ["en", "zh_cn", "zh_tw", "vi"]; // Extend this array with more languages as needed
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
